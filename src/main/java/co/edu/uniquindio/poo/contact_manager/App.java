@@ -41,7 +41,7 @@ public class App extends Application {
         return contactManager;
     }
 
-    // Resto de los métodos permanecen igual...
+   
     public static void loadScene(String fxml, double width, double height) {
         try {
             Parent root = loadFXML(fxml);
